@@ -1,0 +1,150 @@
+body{
+	background: #b31d23;
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+p{
+	font-size: 1.45rem;
+	font-weight: bold;
+}
+
+h2{
+	color: #57953f;
+	text-align: center;
+}
+
+tr{
+	padding-bottom: 5px;
+}
+
+.up{
+	padding-top: 15px;
+}
+
+.menu a{
+	display: block;
+	margin: auto;
+}
+
+.menu{
+	background: #ebe4db;
+}
+
+.des{
+	font-size: 1.15rem
+}
+
+.desayunos{
+	background: #ebe4db;
+}
+
+.desayunos img{
+	padding-bottom: 15px;
+}
+
+.especialidades{
+	background: #ebe4db;
+}
+
+.especialidades img{
+	padding-bottom: 15px;
+}
+
+.mariscos{
+	background: #ebe4db;
+}
+
+.mariscos img{
+	padding-bottom: 15px;
+}
+
+.hamburguesas{
+	background: #ebe4db;
+}
+
+.hamburguesas img{
+	padding-bottom: 15px;
+}
+
+.alitas{
+	background: #ebe4db;
+}
+
+.alitas img{
+	padding-bottom: 15px;
+}
+
+.pizza{
+	background: #ebe4db;
+}
+
+.pizza img{
+	padding-bottom: 15px;
+}
+
+.ensaladas{
+	background: #ebe4db;
+}
+
+.ensaladas img{
+	padding-bottom: 15px;
+}
+
+.bebidas{
+	background: #ebe4db;
+}
+
+.bebidas img{
+	padding-bottom: 15px;
+}
+
+.pie{
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+}
+
+.col-9{
+	padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
